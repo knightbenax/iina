@@ -651,7 +651,7 @@ class MainWindowController: NSWindowController, NSWindowDelegate {
     }
     animationState = .willHide
     NSAnimationContext.runAnimationGroup({ (context) in
-      context.duration = 0.5
+      context.duration = 0.7
       fadeableViews.forEach { (v) in
         v?.animator().alphaValue = 0
       }
@@ -673,7 +673,7 @@ class MainWindowController: NSWindowController, NSWindowDelegate {
       v?.alphaValue = 0
     }
     NSAnimationContext.runAnimationGroup({ (context) in
-      context.duration = 0.5
+      context.duration = 0.7
       fadeableViews.forEach { (v) in
         v?.animator().alphaValue = 1
       }
