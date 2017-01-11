@@ -35,7 +35,7 @@ class PlayerCore: NSObject {
   var triedUsingExactSeekForCurrentFile: Bool = false
   var useExactSeekForCurrentFile: Bool = true
 
-  // need enter fullscreen for nect file
+  // need enter fullscreen for next file
   var needEnterFullScreenForNextMedia: Bool = true
 
   // MARK: - Control commands
